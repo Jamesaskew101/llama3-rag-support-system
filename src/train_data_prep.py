@@ -3,7 +3,7 @@ from datasets import Dataset
 from sklearn.model_selection import train_test_split
 
 # ---------- Load CSV ----------
-df = pd.read_csv("finall.csv")
+df = pd.read_csv("final_main_data.csv")
 
 # ---------- Filter out rows with missing PROBLEM or SOLUTION ----------
 before = len(df)
